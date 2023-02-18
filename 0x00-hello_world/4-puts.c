@@ -8,11 +8,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{ 
-	char ch;
-	puts("\"Programming is like building a multilingual puzzle");
-	
+{ char ch;
 
+	puts("\"Programming is like building a multilingual puzzle");
 	scanf("%c", &ch);
 	return (0);
 }
