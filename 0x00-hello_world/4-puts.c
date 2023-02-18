@@ -10,7 +10,7 @@
 int main(void)
 { 
 	char ch;
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	
 
 	scanf("%c", &ch);
