@@ -9,7 +9,7 @@
  */
 int main(void)
 { 
-	char ch:
+	char ch;
 	puts("Programming is like building a multilingual puzzle\n");
 	
 
