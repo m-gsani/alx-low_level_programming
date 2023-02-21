@@ -7,19 +7,20 @@
 
 int main(void)
 {
-	char a = 'a';
+	char lower_case = 'a';
+	char upper_case = 'A';
 
-	if (a <= 'z')
+	if (lower_case < 'z')
 	{
-		putchar(a);
-		a++;
+		putchar(lower_case);
+		lower_case++;
 	}
-	else
+	while (upper_case < 'Z')
 	{
-		a = 'A';
-		putchar(a);
-		a++;
+		putchar(upper_case);
+		upper_case;
 	}
-	putchar('\n');
+	putchar('\n')
+
 	return (0);
 }
