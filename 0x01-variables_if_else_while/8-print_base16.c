@@ -9,14 +9,14 @@
 int main(void)
 {
 	char a = '0';
-	char b = 'A';
+	char b = 'a';
 
 	while (a <= '9')
 	{
 		putchar(a);
 		a++;
 	}
-	while (b <= 'F')
+	while (b <= 'f')
 	{
 		putchar(b);
 		b++;
