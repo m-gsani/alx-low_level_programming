@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <time.h>
-/* FUnction that determines if number is positive negative or zero */
+/**
+ * main - Entry point
+ * Description:'the program prints either postive,negative or zero'
+ * Return: Always 0 (Success)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
