@@ -16,7 +16,7 @@ int main(void)
 	}
 	else
 	{
-		a = 'A'
+		a = 'A';
 		putchar(a);
 		a++;
 	}
