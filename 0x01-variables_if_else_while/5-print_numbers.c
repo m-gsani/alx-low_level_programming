@@ -1,4 +1,4 @@
-#include <stido.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: 'Prints all singel digit base 10 numbers'
