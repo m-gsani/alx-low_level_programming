@@ -13,7 +13,7 @@ int main(void)
 	while (a <= 'z')
 	{
 		putchar(a);
-		a++
+		a++;
 		if ((a == 'q') || (a == 'e'))
 		{
 			++a;
