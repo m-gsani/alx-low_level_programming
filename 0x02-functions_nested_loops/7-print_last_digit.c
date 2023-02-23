@@ -5,18 +5,19 @@
  * Return: Always r (success)
  */
 
-int print_last_digit(int a)
+int print_last_digit(int n)
 {
-	int r;
+	int lastDigit;
 
-	if (a <= 0)
+	lastDigit = n % 10;
+
+	if (n < 0)
+
 	{
-		r = (-a) % 10;
-		return (r);
+		lastDigit = lastDigit * -1;
 	}
-	else
-	{
-		r = a % 10;
-		return (r);
-	}
+
+	_putchar(lastDigit + '0');
+
+	return (lastDigit);
 }
