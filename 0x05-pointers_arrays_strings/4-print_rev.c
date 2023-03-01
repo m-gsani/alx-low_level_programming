@@ -9,7 +9,6 @@ void print_rev(char *s)
 	int end;
 
 	end = _strlen(s);
-	printf("value of end: %d\n", end);
 	for (i = end - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
