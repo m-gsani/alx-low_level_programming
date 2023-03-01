@@ -3,7 +3,6 @@
  * print_rev - prints the reverse of the inputed string
  * @s : Variable containing string to be reversed
  */
-int _strlen(char *);
 void print_rev(char *s)
 {
 	int i;
