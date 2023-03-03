@@ -1,29 +1,22 @@
 #include "main.h"
-/**
- * print_diagonal - prints the character '\' n amount of times
- * @n : The number of times the character is printed
- */
 
+/**
+ * print_diagonal - print diagonal
+ * @n: Times to print
+ */
 void print_diagonal(int n)
 {
-	int a = 0;
-	int j;
+	int a, b;
 
-	if (n <= 0)
+	for (a = 0; a < n; a++)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		while (a <= n)
+		for (b = 0; b < a; b++)
 		{
-			while (j < (a + 1))
-			{
-				_putchar(' ');
-				j++;
-			}
-			a++;
+			_putchar(' ');
 		}
+		_putchar(92);
 		_putchar('\n');
 	}
+	if (n <= 0)
+		_putchar('\n');
 }

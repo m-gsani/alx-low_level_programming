@@ -1,24 +1,18 @@
 #include "main.h"
 /**
- * print_line - print the _ character the same number of times as n
- * @n : Number of times to print character
+ * print_line - It takes one argument
+ * @n: length of line
+ *
+ * Return: returns void
  */
-
 void print_line(int n)
 {
-	int a = 0;
+	int num;
 
-	if (n <= 0)
+	for (num = 0; num < n; num++)
 	{
-		_putchar('\n');
+		_putchar('_');
 	}
-	else
-	{
-		while (a <= n)
-		{
-			_putchar('_');
-			a++;
-		}
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
+
